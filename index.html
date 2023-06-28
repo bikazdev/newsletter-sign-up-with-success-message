@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  
+    <main>
+      <div class="main ">
+        <div class="header">
+          <h1>Stay updated!</h1>
+          <p>Join 60,000 product managers receiving monthly update on:</p>
+        </div>
+        <div class="functions">
+          <p>Product discovery and building what matters</p>
+          <p>Measuring to ensure updates are a success</p>
+          <p>And much more!</p>
+        </div>
+        <div class="mail">
+          <span>Email address</span>
+          <form class="submitMail">
+            <input type="email" placeholder="email@company.com" class="mailBox" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+            <span class="notifError">Valid email required</span>
+            <input type="submit" value="Subscribe to monthly newsletter" class="mailBtn">
+          </form>
+        </div>
+      </div>
+      <div class="photo ">
+        <div class="img"></div>
+      </div>
+      <div class="succsess ">
+        <div class="messageBox">
+          <span class="iconList"></span>
+          <h1>Thanks for subscribing!</h1>
+          <p>A cifirmation email has been sent to <span class="emailAddress"></span> Please open it and click the button inside to confirm your subscription</p>
+          <button class="successBtn">Dimiss message</button>
+        </div>
+      </div>
+    </main>
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
